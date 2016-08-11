@@ -8,7 +8,7 @@
 
  **如果您有任何意见或建议也可以通过[邮件](mailto:huanggaojun13@gmail.com)或[微博](http://weibo.com/gaojunhuang)联系我**
 
->感谢 [@GitHubDaily](http://weibo.com/GitHubDaily) 的大力支持
+>感谢 [@GitHubDaily](http://weibo.com/GitHubDaily) 与 [@Android 开发日常](http://weibo.com/AndroidDevDaily) 的大力支持
 
 ## 目录
 
@@ -25,6 +25,8 @@
 - [开源库收集](#开源库收集)
 - [设计模式](#设计模式)
 - [实践篇](#实践篇)
+- [面试](#面试)
+- [Git 教程](#git-教程)
 - [文档](#文档)
 - [其它资料收集](#其它资料收集)
 - [知乎上的讨论](#知乎上的讨论)
@@ -50,7 +52,7 @@
 
  环境/工具 | 简述
  -------- | --------
-[Android Studio](http://developer.android.com/sdk/index.html) | 这个开发工具上手需要一定的时间, 自从 Google 推出1.0正式版, 这个工具一直火爆, 目前 github 上面的绝大多数开源项目都是使用 Android Studio 工具, 这就是 Android 开发工具的未来, 所以极力推荐 Android 开发人员使用这个工具, 该工具已更新到 2.0 预览版, 性能逐渐稳定提高, 没有之前那么卡了
+[Android Studio](http://developer.android.com/sdk/index.html) | 这个开发工具上手需要一定的时间, 自从 Google 推出1.0正式版, 这个工具一直火爆, 谷歌也不停更新维护, 性能逐渐稳定提高, 目前 github 上面的绝大多数开源项目都是使用 Android Studio 工具, 这就是开发 Android 必须掌握使用的工具, 如果还在使用 Eclipse 开发 Android 的童鞋们, 赶紧换成 AS 开发吧
 [Genymotion](https://www.genymotion.com/#!/download) | 强大好用高性能的 Android 模拟器, 自带的那个模拟器简直不忍直视, 启动超慢的, 跟这个没法比, 无论你是用 Eclipse 还是 Android Studio 里面都有 Genymotion 插件
 [jadx](https://github.com/skylot/jadx) | 一个 Android 反编译神器, 不同于常见的 [dex2jar](https://github.com/pxb1988/dex2jar), 这个反编译器生成代码的 try/catch 次数更少, View也不再是数字 id 了, 可读性更高
 [android-selector](https://github.com/importre/android-selector-intellij-plugin) | 可以根据指定颜色生成 Selector Drawable 的插件
@@ -180,14 +182,12 @@
 - [Material-Animations](https://github.com/lgvalle/Material-Animations)
 - [AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations)
 
-
 ## Material Design 设计
 
 - [Material Design 教程](https://www.google.com/design/spec/material-design/introduction.html)
 - [Material Design 教程(中文版)](https://github.com/1sters/material_design_zh_2)
 - [Material Design Android Library ](https://github.com/navasmdc/MaterialDesignLibrary)(Material Design 开源库, 很多效果可以直接拿来用)
 - [十大Material Design开源项目](http://www.aplesson.com/?p=650)
-
 
 ## 素材
 
@@ -229,7 +229,6 @@
 - [Android 命名规范](http://blog.csdn.net/vipzjyno1/article/details/23542617)
 - [Adapter 优化方案的探索](https://github.com/tianzhijiexian/Android-Best-Practices/blob/master/2015.10/adapter/adapter.md)
 - [Android-Tips](https://github.com/tangqi92/Android-Tips)
-- [git 使用教程](http://jlord.us/git-it/challenges/get_git.html)
 - [最全 Android ADB Shell](http://adbshell.com/)
 - [AndroidNote](https://github.com/CharonChui/AndroidNote)
 - [Android 常用工具类](https://github.com/l123456789jy/Lazy)
@@ -246,7 +245,24 @@
 - [我的 Android 开发实战经验总结](http://www.jianshu.com/p/4f152bc8f4f3)
 - [Android Tips 系列](http://www.wangchenlong.org/2016/02/23/tips/1603/231-android-tips-1/)
 - [如何自学 Android](http://www.jianshu.com/p/28111d29eee4)
+
+## 面试
+
 - [国内一线互联网公司内部面试题库](https://github.com/JackyAndroid/AndroidInterview-Q-A)
+- [LearningNotes](https://github.com/GeniusVJR/LearningNotes) (非常详细的面试资料, 涉及 Android, Java, 设计模式, 算法等)
+- [80% 以上简历都是不合格的](http://j.codekk.com/blogs/detail/5705bcdf4a38205862ef4770)
+- [推荐两个技术简历模板](http://j.codekk.com/blogs/detail/5705bcdf4a38205862ef476f)
+- [Android 面试那些事儿](https://zhuanlan.zhihu.com/p/21565914)
+- [精益技术简历之道——改善技术简历的47条原则](http://lucida.me/blog/lean-technical-resume/)
+
+## Git 教程
+
+新手看完这几份教程基本上知道怎么使用 Git 了
+
+- [GitHub 团队美女写的一套 Git 使用教程](http://jlord.us/git-it/challenges/get_git.html)
+- [ProGit 中文版](https://git-scm.com/book/zh/v2)
+- [廖雪峰的 Git 教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+- [Git 简易指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 
 ## 文档
 
@@ -263,6 +279,7 @@
 - [Android 开发收藏夹](https://github.com/ruijun/Android-Dev-Favorites)
 - [TimLiu-Android](https://github.com/Tim9Liu9/TimLiu-Android)(TimLiu 总结的 Android 开源项目及库)
 - [AndroidTips](https://github.com/JohnTsaiAndroid/AndroidTips)
+- [Android开发人员不得不收集的代码](https://github.com/Blankj/AndroidUtilCode)
 
 
 ## 知乎上的讨论
@@ -279,6 +296,7 @@
 - [Android有什么好的技术点适合进行技术分享?](https://www.zhihu.com/question/29939631)
 - [Android Studio有什么奇技淫巧?](https://www.zhihu.com/question/27482725)
 - [Android 开发: 开始一个项目前, 做好哪些准备可以事半功倍?](https://www.zhihu.com/question/37433825)
+- [大家有哪些好的 Android 开发习惯?](https://www.zhihu.com/question/27227425)
 
 ## 贡献者
 
